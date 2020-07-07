@@ -1,0 +1,40 @@
+1583128445785	geckodriver	INFO	geckodriver 0.19.1
+1583128445796	geckodriver	INFO	Listening on 127.0.0.1:16331
+1583128448820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.l63afCOL2jdn"
+1583128449178	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583128449465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583128449466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583128449466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583128449466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583128449558	Marionette	TRACE	Received observer notification profile-after-change
+1583128449589	Marionette	TRACE	Received observer notification toplevel-window-ready
+1583128449615	Marionette	TRACE	Received observer notification command-line-startup
+1583128449615	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1583128449664	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583128450841	Marionette	TRACE	Received observer notification marionette-startup-requested
+1583128450841	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1583128450848	Marionette	TRACE	All scripts recorded.
+1583128450848	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1583128450849	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1583128450849	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1583128450849	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1583128450849	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1583128450849	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1583128450849	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1583128450849	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1583128450849	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1583128450850	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1583128450893	Marionette	INFO	Listening on port 16341
+1583128450893	Marionette	DEBUG	Marionette is listening
+1583128451977	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:16366
+1583128451980	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1583128451981	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1583128451987	Marionette	DEBUG	Closed connection 0
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 95: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012C,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
